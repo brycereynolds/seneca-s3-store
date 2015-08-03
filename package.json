@@ -4,7 +4,7 @@
   "description": "A data-entities store for seneca that uses s3 buckets.",
   "main": "s3.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified...these are comming soon sorry!\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/brycereynolds/seneca-s3-store#readme",
   "dependencies": {
     "aws-sdk": "^2.1.42",
-    "eraro": "^0.4.1"
+    "eraro": "^0.4.1",
+    "seneca": "^0.6.4"
   }
 }
