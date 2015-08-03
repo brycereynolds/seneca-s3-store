@@ -1,0 +1,28 @@
+{
+  "name": "seneca-s3-store",
+  "version": "0.0.1",
+  "description": "A data-entities store for seneca that uses s3 buckets.",
+  "main": "s3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brycereynolds/seneca-s3-store.git"
+  },
+  "keywords": [
+    "seneca",
+    "data-entities",
+    "s3"
+  ],
+  "author": "Bryce Reynolds <brycereynoldsdesign@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brycereynolds/seneca-s3-store/issues"
+  },
+  "homepage": "https://github.com/brycereynolds/seneca-s3-store#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1.42",
+    "eraro": "^0.4.1"
+  }
+}
