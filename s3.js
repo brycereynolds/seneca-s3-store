@@ -15,6 +15,7 @@ module.exports = function(options) {
     endpoint: null,
     region: null,
     bucket: null,
+    debug: false,
   }, options);
 
   var s3Client = new aws.S3({
@@ -75,6 +76,10 @@ module.exports = function(options) {
     tag: meta.tag,
   }, function(args, cb) {
 
+    if(options.debug){
+      return cb();
+    }
+
     s3Client.headObject({
       Key: '',
       Bucket: options.bucket,
@@ -89,6 +94,7 @@ module.exports = function(options) {
 
       return cb();
     });
+
 
   });
 
