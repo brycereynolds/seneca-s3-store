@@ -1,6 +1,6 @@
 {
   "name": "seneca-s3-store",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A data-entities store for seneca that uses s3 buckets.",
   "main": "s3.js",
   "scripts": {
