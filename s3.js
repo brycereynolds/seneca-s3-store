@@ -54,6 +54,7 @@ module.exports = function(options) {
           ok: true,
           path: ent.target,
           bucket: options.bucket,
+          location: out.Location,
         });
       });
     },
