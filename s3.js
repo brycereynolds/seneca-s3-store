@@ -38,7 +38,7 @@ module.exports = function(options) {
         Body: ent.buffer,
         ContentType: ent.type,
         Bucket: options.bucket,
-      }, function(err) {
+      }, function(err, out) {
 
         if (err) {
           return cb(error('upload-error', {
